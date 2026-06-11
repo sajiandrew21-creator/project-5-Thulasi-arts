@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thulasi Verse — Handmade Sketches & Pencil Portraits</title>
+  <meta name="description" content="Custom handmade sketches and pencil portraits — capturing your story in art. Commission a portrait drawn with heart by Thulasi Verse." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Dancing+Script:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#home" class="brand">
+        <img src="assets/thulasi-verse-logo.png" alt="Thulasi Verse logo" class="brand-logo" />
+        <span class="brand-text">
+          <span class="brand-name">THULASIKATHIR</span>
+          <span class="brand-sub">sketch & atrs</span>
+        </span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn btn-primary btn-sm">Commission</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#services">Services</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section id="home" class="hero">
+      <video class="hero-bg" id="homeBgVideo" autoplay muted loop playsinline aria-hidden="true">
+        <source src="assets/background.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow reveal">Handmade Art · Drawn With Heart</p>
+        <h1 class="display reveal">Thulasi Verse</h1>
+        <h2 class="hero-sub reveal">Handmade Sketches & amp; Pencil Portraits — capturing your story in art.</h2>
+        <p class="hero-lede reveal">Each piece is drawn entirely by hand on archival paper, made to be treasured for generations.</p>
+        <div class="hero-cta reveal">
+          <a href="#contact" class="btn btn-primary">Commission a Portrait →</a>
+          <a href="#gallery" class="btn btn-ghost">View the Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Our Story</p>
+          <h2>Pencil, paper, patience</h2>
+          <div class="rule"></div>
+        </header>
+        <div class="about-grid">
+          <div class="reveal">
+            <p>Thulasi Verse is an independent portrait studio devoted to the slow craft of pencil and graphite. Every commission begins with a conversation — your story, the moment you want to keep, the people you love — and ends with an heirloom you can hold in your hands.</p>
+            <p>With over <strong>8 years</strong> of practice and <strong>400+ commissions</strong> delivered to homes across India, Singapore, the UK and Australia, our work has been chosen for weddings, memorials, milestone birthdays and corporate gifts.</p>
+            <ul class="feature-list">
+              <li>✦ Custom designs</li>
+              <li>✦ Archival materials</li>
+              <li>✦ 5–7 day turnaround</li>
+              <li>✦ Hand-signed originals</li>
+              <li>✦ Worldwide shipping</li>
+              <li>✦ Free revisions</li>
+            </ul>
+          </div>
+          <div class="reveal about-image-wrap">
+            <img src="jesus thulasi.jpeg" alt="Artist sketching a portrait" class="about-image" />
+            <div class="about-badge">
+              <p class="badge-num">8+ yrs</p>
+              <p class="badge-sub">of pencil work</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PORTFOLIO ============ -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Recent commissions</h2>
+          <div class="rule"></div>
+        </header>
+        <div class="portfolio-grid" id="portfolioGrid"><!-- injected by JS --></div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section id="gallery" class="section section-muted">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Gallery</p>
+          <h2>A wall of pencil work</h2>
+          <div class="rule"></div>
+        </header>
+        <div class="gallery-grid" id="galleryGrid"><!-- injected by JS --></div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section id="services" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Services</p>
+          <h2>Commission your portrait</h2>
+          <div class="rule"></div>
+        </header>
+        <div class="services-grid" id="servicesGrid"><!-- injected by JS --></div>
+        <p class="reveal services-foot">Every commission includes a free consultation, a sketch preview before completion, and our <span class="accent">100% love-it guarantee</span> — unlimited revisions until it feels right.</p>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section id="testimonials" class="section section-muted">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Kind Words</p>
+          <h2>From people who held the paper</h2>
+          <div class="rule"></div>
+        </header>
+        <div class="reviews-grid" id="reviewsGrid"><!-- injected by JS --></div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <header class="section-head left">
+            <p class="eyebrow">Contact</p>
+            <h2>Let's draw something beautiful</h2>
+          </header>
+          <p>Tell me a little about the portrait you have in mind. I usually reply within a day with a quote and timeline.</p>
+          <ul class="contact-list">
+            <li><span>Email</span><a href="mailto:hello@thulasiverse.art">hello@thulasiverse.art</a></li>
+            <li><span>Phone</span><a href="tel:+919876543210">+91 98765 43210</a></li>
+            <li><span>Studio</span>Ranipet, vadakarai — by appointment</li>
+          </ul>
+          <div class="socials">
+            <a href="https://instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram">
+              <img src="https://download.logo.wine/logo/Instagram/Instagram-Glyph-Black-Logo.wine.png" alt="Instagram" />
+            </a>
+             <a href="https://facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook">
+               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                 <path d="M22 12.07C22 6.48 17.52 2 12 2S2 6.48 2 12.07c0 5 3.66 9.13 8.44 9.93v-7.03H8.9v-2.9h1.54V9.41c0-1.52.9-2.36 2.28-2.36.66 0 1.35.12 1.35.12v1.49h-.77c-.76 0-1 .48-1 0v1.16h1.7l-.27 2.9h-1.43V22c4.78-.8 8.44-4.93 8.44-9.93z"/>
+               </svg>
+             </a>
+            <a href="https://twitter.com/"  target="_blank" rel="noreferrer" aria-label="Twitter">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53A4.48 4.48 0 0 0 22.43.36a9.09 9.09 0 0 1-2.88 1.1A4.5 4.5 0 0 0 16.5 0c-2.5 0-4.5 2.26-4.5 5.04 0 .4.05.79.13 1.16A12.8 12.8 0 0 1 1.64.88 4.94 4.94 0 0 0 2.9 6.4c-.9-.03-1.75-.29-2.5-.7v.07C1.4 8.3 3.14 9.9 5.3 10.2a4.48 4.48 0 0 1-2.02.07c.57 1.85 2.22 3.2 4.18 3.24A9.06 9.06 0 0 1 .96 18.58 12.8 12.8 0 0 0 7.29 20c8.29 0 12.84-6.83 12.84-12.75 0-.2 0-.4-.02-.6A9.22 9.22 0 0 0 23 3z"/>
+              </svg>
+            </a>
+            <a href="https://wa.me/919876543210" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.031-.967-.273-.099-.472-.148-.671.15-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.173.198-.297.298-.497.099-.198.05-.372-.025-.52-.075-.148-.671-1.611-.92-2.205-.242-.579-.487-.5-.671-.51l-.571-.01c-.198 0-.52.075-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.693.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347z"/>
+                <path d="M12.004 2.003c-5.514 0-9.998 4.484-9.998 9.997 0 1.76.46 3.49 1.334 5.02L2 22l4.13-1.087c1.44.789 3.095 1.207 4.874 1.206 5.513 0 9.997-4.484 9.997-9.997S17.517 2.003 12.004 2.003zm5.377 13.74c-.226.625-1.333 1.18-1.832 1.255-.486.074-1.08.1-1.746-.p-1.056-.113-2.067-.713-3.276-1.754-1.213-1.045-1.977-2.33-2.21-3.166-.233-.836-.012-1.22.198-1.253.202-.029.438-.044.673-.044.233 0 .545.028.783.43.233.398.791 1.373.839 1.476.047.099.078.22.02.349-.06.128-.09.198-.198.297-.098.1-.203.223-.29.298-.099.099-.199.198-.089.397.11.198.497.813 1.066 1.319.731.699 1.347.93 1.601 1.04.249.11.412.086.565-.05.149-.133.628-.727.791-.979.165-.248.331-.2.557-.111.226.099 1.428.672 1.674.793.248.099.414.148.476.228.06.08.06.461-.167 1.086z"/>
+              </svg>
+            </a>
+          </div>
+          
+        </div>
+
+        <form class="reveal contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <label>Your name *<input name="name" required /></label>
+            <label>Email *<input name="email" type="email" required /></label>
+          </div>
+          <div class="form-row">
+            <label>Phone<input name="phone" type="tel" /></label>
+            <label>Subject type<input name="subject" placeholder="e.g. Couple portrait" /></label>
+          </div>
+          <label>Project details *
+            <textarea name="message" rows="5" required placeholder="Tell me about the photo, the people, the moment…"></textarea>
+          </label>
+          <button class="btn btn-primary" id="submitBtn" type="submit">Send enquiry →</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand">
+          <img src="assets/thulasi-verse-logo.png" alt="" class="brand-logo" />
+          <span class="brand-text">
+            <span class="brand-name">THULASIKATHIR</span>
+            <span class="brand-sub">Handmade Art · Drawn With Heart</span>
+          </span>
+        </div>
+        <p class="muted">An independent pencil portrait studio creating treasured, hand-drawn keepsakes for clients worldwide.</p>
+      </div>
+      <div>
+        <p class="footer-title">Explore</p>
+        <ul><li><a href="#about">About</a></li><li><a href="#portfolio">Portfolio</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#services">Services</a></li><li><a href="#contact">Contact</a></li></ul>
+      </div>
+      <div>
+        <p class="footer-title">Contact</p>
+        <ul><li>hello@thulasiverse.art</li><li>+91 98765 43210</li><li>Kochi, Kerala — India</li></ul>
+      </div>
+    </div>
+    <div class="container footer-base">
+      <p>© <span id="year"></span> Thulasi Verse. All rights reserved.</p>
+      <p>Website created by <strong>Shaji Andrew</strong></p>
+    </div>
+  </footer>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+    <figure>
+      <img id="lightboxImg" alt="" />
+      <figcaption id="lightboxCap"></figcaption>
+    </figure>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
